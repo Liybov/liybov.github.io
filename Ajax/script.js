@@ -3,7 +3,7 @@ $(document).ready(function() {
     // get post
     $.ajax({
         method: 'GET',
-        url: 'http://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=351606ed15e88cf282f124bfac44ef6d',
+        url: 'https://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=351606ed15e88cf282f124bfac44ef6d',
         success: function(data) {
             console.log(data);
             var date = new Date(),
