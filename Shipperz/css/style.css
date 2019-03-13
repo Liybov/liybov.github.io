@@ -29,7 +29,7 @@ ul {
 body {
     font-size: 100%;
     font-family: 'Fauna One', serif;
-    background-image: 'url(../images/map.png)';
+    background-image: url(../images/map.png);
 }
 
 .yellow {
