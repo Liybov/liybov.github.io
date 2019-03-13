@@ -1,0 +1,578 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Shipperz</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type='text/css' href="css/style.css" />
+		<link rel="shortcut icon" type="image/ico" href="images/favicon.png" />
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+        <!--<script>
+            $('#input0').click(function() {
+             if($("select#input0 :selected").val() == "ukr") {
+                $("select#input0").attr('style', 'background-image:url(images/ukr_flag.png);');
+             }
+             if($("select#input0 :selected").val() == "eng") {
+                $("select#input0").attr('style', 'background-image:url(images/en_flat.png);');
+             }
+                console.log('select color: '+$("select#input0 :selected").val());
+            });
+        </script>-->
+	</head>
+	<body>
+        <section class="section header">
+            <!--<div class="yellow"></div>-->
+            <div class='mid'>
+                <div class="header_top">
+                    <div class="header_logo">
+                        <a href="#" class="header_logo_link">
+                            <img src="images/logo.png" class="header_logo_img"/>
+                        </a>
+                    </div>
+                    <div class="header_menu">
+                        <ul class="header_menu_list">
+                            <li class="header_menu_item"><a href="#" class="header_menu_link">Home</a></li>
+                            <li class="header_menu_item"><a href="#about" class="header_menu_link">About</a></li>
+                            <li class="header_menu_item"><a href="#track" class="header_menu_link">Track</a></li>
+                            <li class="header_menu_item"><a href="#news" class="header_menu_link">News</a></li>
+                            <li class="header_menu_item link_language">
+                                <a href="#" class="header_menu_link">
+                                    <img src="images/flat.png" class="language_img"> En
+                                    <img src="images/flat_arrow.png" class="language_arrow">
+                                </a>
+                                <ul class="language">
+                                    <li class="language_item">
+                                        <a href="#" class="language_item_link">
+                                            <img src="images/ua_flag.png" class="language_img"> Ua
+                                            <img src="images/flat_arrow.png" class="language_arrow">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--<select name="" id="input0" required="required" style="background-image:url(images/ukr_flag.png);">
+                            <option  style="background-image:url(images/ukr_flag.png;" value="ukr" selected >ukr</option>
+                            <option  style="background-image:url(images/en_flat.png);" value="eng">eng</option>
+                        </select>-->
+                    </div>
+                    <div class="header_mobile_menu">
+                        <a href="#" class='mobile-menu_link'>
+                            <img src="images/mobile_menu1.svg" class="mobile-menu_link_img" alt='mobile_menu_icon'/>
+                        </a>
+                        <ul class="mobile-menu_list">
+                            <li class="mobile-menu_back" >
+                                <a href="#">Back</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#track">Track</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li class="link_language">
+                                <a href="#" class="header_menu_link">
+                                    <img src="images/flat.png" class="language_img"> En
+                                    <img src="images/flat_arrow.png" class="language_arrow">
+                                </a>
+                                <ul class="language">
+                                    <li class="language_item">
+                                        <a href="#" class="language_item_link">
+                                            <img src="images/ua_flag.png" class="language_img"> Ua
+                                            <img src="images/flat_arrow.png" class="language_arrow">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header_bottom">
+                    <div class='header_text'>
+                        <h1 class='header_text_title'>Shipperz</h1>
+                        <h3 class="header_text_h3">One click to enjoy your shipping network</h3>
+                        <a href='#' class="play">
+                            <img src="images/play_icon.png" class="play_icon"/>
+                            <p class="play_text">Play the video</p>
+                        </a>
+                    </div>
+                    <div class='header_box'>
+                        <div class="download">
+                            <a href="#" class="download_link">
+                                <img src="images/store.png" class="download_img">
+                                <p class="download_app">Download App</p>
+                            </a>
+                            <p class="download_text" >Download Our App To Confirm Orders</p>
+                            <a href="#" class="download_app-store">
+                                <img src="images/app_store.png" class="download_app-store_img">
+                                <p class="download_app-store_text">App Store</p>
+                            </a>
+                            <a href="#" class="download_google-play">
+                                <img src="images/google_play.png" class="download_google-play_img">
+                                <p class="download_google-play_text">Google Play</p>
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social_fb_link">
+                                <img src="images/fb.png" class="social_fb"/>
+                            </a>
+                            <a href="#" class="social_tw_link">
+                                <img src="images/twitter.png" class="social_tw"/>
+                            </a>
+                            <a href="#" class="social_google_link">
+                                <img src="images/g+.png" class="social_google"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section services">
+            <a name='about'></a>
+            <div class='mid'>
+                <h2 class="services_title">Services</h2>
+                <h4 class="services_text">All The Services Provided By Us</h4>
+                <hr align="center" width="8%" color="#ffba00" size="3" style="margin-top: 19px; margin-bottom: 49px;">
+                <div class="services_box">
+                    <img src="images/icon_logistics.png" class="services_box_img">
+                    <p class="services_box_text">
+                        <span class="services_text-yellow">Logistics</span><br/> 
+                        It is a long established.
+                    </p>
+                </div>
+                <div class="services_box">
+                    <img src="images/icon_transport.png" class="services_box_img">
+                    <p class="services_box_text">
+                        <span class="services_text-yellow">TRANSPORT</span><br/> 
+                        It is a long established.
+                    </p>
+                </div>
+                <div class="services_box">
+                    <img src="images/icon_warehousing.png" class="services_box_img">
+                    <p class="services_box_text">
+                        <span class="services_text-yellow">WAREHOUSING</span><br/> 
+                        It is a long established.
+                    </p>
+                </div>
+                <div class="services_box">
+                    <img src="images/icon_packaging.png" class="services_box_img">
+                    <p class="services_box_text">
+                        <span class="services_text-yellow">PACKAGING</span><br/> 
+                        It is a long established.
+                    </p>
+                </div>
+                <div class="services_box">
+                    <img src="images/icon_door-to-door.png" class="services_box_img">
+                    <p class="services_box_text">
+                        <span class="services_text-yellow">DOOR TO DOOR</span><br/> 
+                        It is a long established.
+                    </p>
+                </div>
+                <div class="services_box">
+                    <img src="images/icon_cargo.png" class="services_box_img">
+                    <p class="services_box_text">
+                        <span class="services_text-yellow">CARGO</span><br/> 
+                        It is a long established.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section guidelines">
+            <div class="sender">
+                <div class="sender-mid">
+                    <h2 class="sender_title">Are You Sender</h2>
+                    <p class="sender_text">If you are a sender ? We have some guidelines to help you!</p>
+                    <a href="#" class="sender_link">
+                        <p class="sender_link_text">Click Here</p>
+                        <img src="images/arrow-right.png" class="sender_link_arrow">
+                    </a>
+                </div>
+                
+            </div>
+            <div class="mid">
+               <div class="guidelines_or">
+                    <img src="images/OR.png" class="guidelines_or_img">
+                </div>
+            </div> 
+            <div class="shipper">
+                <div class="shipper-mid">
+                    <h2 class="shipper_title">Are you Shipper ?</h2>
+                    <p class="shipper_text">If you are a shipper ? We have some guidelines to help you!</p>
+                    <a href="#" class="shipper_link">
+                        <p class="shipper_link_text">Click Here</p>
+                        <img src="images/shipper-arrow-right.png" class="shipper_link_arrow">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section benefits">
+            <a name='track'></a>
+            <div class='mid'>
+                <h2 class="benefits_title">Benefits</h2>
+                <h4 class="benefits_text">Want to know your benifits here are them</h4>
+                <hr align="center" width="8%" color="#ffba00" size="3" style="margin-top: 19px; margin-bottom: 49px;">
+                <div class="benefits_block">
+                    <div class="benefits_block_left">
+                        <div class="benefits_box">
+                            <div class="benefits_box_left">
+                                <img src="images/dollar.png" class="benefits_box_img">
+                            </div>
+                            <div class="benefits_box_right">
+                                <h3 class="benefits_box_title">Satisfied Shipping Cost </h3>
+                                <p class="benefits_box_text">Lorem ipsum dolor siteen ameet, consectetur adipisicing elit, sed do etusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="benefits_box">
+                            <div class="benefits_box_left">
+                                <img src="images/trustable.png" class="benefits_box_img">
+                            </div>
+                            <div class="benefits_box_right">
+                                <h3 class="benefits_box_title">Trustable</h3>
+                                <p class="benefits_box_text">Lorem ipsum dolor siteen ameet, consectetur adipisicing elit, sed do etusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="benefits_box">
+                            <div class="benefits_box_left">
+                                <img src="images/support.png" class="benefits_box_img">
+                            </div>
+                            <div class="benefits_box_right">
+                                <h3 class="benefits_box_title">Support</h3>
+                                <p class="benefits_box_text">Lorem ipsum dolor siteen ameet, consectetur adipisicing elit, sed do etusmod tempor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits_block_centr">
+                        <img src="images/benefits_img.png" class="benefits_img">
+                    </div>
+                    <div class="benefits_block_right">
+                        <div class="benefits_box">
+                            <div class="benefits_box_right">
+                                <h3 class="benefits_box_title">Enjoy discounts</h3>
+                                <p class="benefits_box_text">Lorem ipsum dolor siteen ameet, consectetur adipisicing elit, sed do etusmod tempor.</p>
+                            </div>
+                            <div class="benefits_box_left">
+                                <img src="images/enjoy-discounts.png" class="benefits_box_img">
+                            </div>
+                        </div>
+                        <div class="benefits_box">
+                            <div class="benefits_box_right">
+                                <h3 class="benefits_box_title">Earn rewards</h3>
+                                <p class="benefits_box_text">Lorem ipsum dolor siteen ameet, consectetur adipisicing elit, sed do etusmod tempor.</p>
+                            </div>
+                            <div class="benefits_box_left">
+                                <img src="images/earn-rewards.png" class="benefits_box_img">
+                            </div>
+                        </div>
+                        <div class="benefits_box">
+                            <div class="benefits_box_right">
+                                <h3 class="benefits_box_title">User friendly</h3>
+                                <p class="benefits_box_text">Lorem ipsum dolor siteen ameet, consectetur adipisicing elit, sed do etusmod tempor.</p>
+                            </div>
+                            <div class="benefits_box_left">
+                                <img src="images/user-friendly.png" class="benefits_box_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section progress">
+            <div class='mid'>
+                <h2 class="progress_title">Progress</h2>
+                <h4 class="progress_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </h4>
+            </div>
+        </section>
+        <section class="section review">
+            <a name='news'></a>
+            <div class='mid'>
+                <div class="slider-box">
+                    <div class="slider">  
+                        <div class="slides">
+                            <img class="slides_img" src="images/review_slide1_img.png" alt="">
+                            <p class="slides_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                            <p class="slides_text-name">Huy Phung</p>
+                            <p class="slides_text-founder">Founder At <span class="yellow-text">UX GEN</span></p>
+                        </div>
+                        <div class="slides">
+                            <img class="slides_img" src="images/review_slide1_img.png" alt="">
+                            <p class="slides_text">0025542777777777777777777777777777777777777777 5222222222222222222222222 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                            <p class="slides_text-name">Huy Phung</p>
+                            <p class="slides_text-founder">Founder At <span class="yellow-text">UX GEN</span></p>
+                        </div>
+                        <div class="slides">
+                            <img class="slides_img" src="images/review_slide1_img.png" alt="">
+                            <p class="slides_text">b/kbj/bjvhhdfgfsfdhgdgdtsxhgj 56852674hkjv Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                            <p class="slides_text-name">Huy Phung</p>
+                            <p class="slides_text-founder">Founder At <span class="yellow-text">UX GEN</span></p>
+                        </div>
+                     </div>
+                    <div class="prev"></div>
+                    <div class="next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section media">
+            <div class='mid'>
+                <h2 class="media_title">Media</h2>
+                <h4 class="media_text">Want to know your benifits here are them</h4>
+                <hr align="center" width="8%" color="#ffba00" size="3" style="margin-top: 19px;">
+                <div class="m-slider-box">
+                    <div class="m-slider">  
+                        <div class="m-slides">
+                            <img class="m-slides_img" src="images/media_2.png" alt="">
+                            <p class="m-slides_text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.”</p>
+                        </div>
+                        <div class="m-slides">
+                            <img class="m-slides_img" src="images/media_2.png" alt="">
+                            <p class="m-slides_text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.”</p>
+                        </div>
+                        <div class="m-slides">
+                            <img class="m-slides_img" src="images/media_2.png" alt="">
+                            <p class="m-slides_text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.”</p>
+                        </div>
+                        <div class="m-slides">
+                            <img class="m-slides_img" src="images/media_2.png" alt="">
+                            <p class="m-slides_text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.”</p>
+                        </div>
+                        <div class="m-slides">
+                            <img class="m-slides_img" src="images/media_2.png" alt="">
+                            <p class="m-slides_text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.”</p>
+                        </div>
+                        <div class="m-slides">
+                            <img class="m-slides_img" src="images/media_2.png" alt="">
+                            <p class="m-slides_text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.”</p>
+                        </div>
+                     </div>
+                    <div class="m-prev"></div>
+                    <div class="m-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section team">
+            <div class="join_our_team">
+                <div class="join_our_team-mid">
+                    <h2 class="join_our_team-title">JOIN OUR TEAM</h2>
+                    <p class="join_our_team-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillumaw dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+ unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                    <a href="#" class="join_our_team-link">
+                        <p class="join_our_team-link_text">Apply Today</p>
+                        <img src="images/arrow-right.png" class="join_our_team-link_arrow">
+                    </a>
+                </div>
+            </div>
+            <div class="mid">
+               <div class="team_mid-picture">
+                    <img src="images/ship_mid.png" class="team_mid-picture_img">
+                </div>
+            </div> 
+            <div class="ship">
+               <img src="images/ship_image.png" class="ship_picture">
+            </div>
+        </section>
+        <section class="section forum">
+            <div class='mid'>
+                <h2 class="forum_title">Forum</h2>
+                <h4 class="forum_text">Get all the info about Shipperz</h4>
+                <hr align="center" width="5%" color="#ffba00" size="3" style="margin-top: 19px; margin-bottom: 50px;">
+                <div class='forum_wrapper'>
+                    <div class="forum_left">
+                        <div class="forum_box">
+                            <div class="question">
+                                <div class="gueation_text"><p>What to do if my desired location is not appeared on the list?</p></div>
+                                <div class="gueation_plus"><img class="gueation_plus+img" src="images/plus.png"></div>
+                             </div>
+                            <div class="answer">
+                                <p class="answer_text">This is answer</p>
+                            </div>
+                        </div>
+                        <div class="forum_box">
+                            <div class="question">
+                                <div class="gueation_text"><p>How the charge is calculated</p></div>
+                                <div class="gueation_plus"><img src="images/plus.png"></div>
+                            </div>
+                            <div class="answer">
+                                <p class="answer_text">This is answer</p>
+                            </div>
+                        </div>
+                        <div class="forum_box">
+                            <div class="question">
+                                <div class="gueation_text"><p>Why I can only consider a driver for my shipment? </p></div>
+                                <div class="gueation_plus"><img src="images/plus.png"></div>
+                            </div>
+                            <div class="answer">
+                                <p class="answer_text">This is answer</p>
+                            </div>
+                        </div>
+                        <div class="forum_box">
+                            <div class="question">
+                                <div class="gueation_text"><p>What should I do after accepting the driver's proposal? </p></div>
+                                <div class="gueation_plus"><img src="images/plus.png"></div>
+                             </div>
+                            <div class="answer">
+                                <p class="answer_text">This is answer</p>
+                            </div>
+                        </div>
+                        <div class="forum_box">
+                            <div class="question">
+                                <div class="gueation_text"><p>What is the office hours of Shipperz customer care department? </p></div>
+                                <div class="gueation_plus"><img src="images/plus.png"></div>
+                            </div>
+                            <div class="answer">
+                                <p class="answer_text">This is answer</p>
+                            </div>
+                        </div>
+                        <div class="forum_box">
+                            <div class="question">
+                                <div class="gueation_text"><p>What to do if my desired location is not appeared on the list?</p></div>
+                                <div class="gueation_plus"><img src="images/plus.png"></div>
+                            </div>
+                            <div class="answer">
+                                <p class="answer_text">The Shipperz customer care department operates 24/7, whenever you need us, you can make a call for us</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forum_right">
+                        <div class="info">
+                            <img src="images/general_info.png" class="info_img">
+                            <p class="info_text">
+                                <span class="info_title">Genarel Info</span><br/>
+                                Genarel faqs about Shipperz
+                            </p>
+                        </div>
+                        <div class="info">
+                            <img src="images/sender_info.png" class="info_img">
+                            <p class="info_text">
+                                <span class="info_title">Senders Info</span><br/>
+                                Sender’s faqs about Shipperz
+                            </p>
+                        </div>
+                        <div class="info">
+                            <img src="images/receivers_info.png" class="info_img">
+                            <p class="info_text">
+                                <span class="info_title">Receivers Info</span><br/>
+                                Receiver’s faqs about Shipperz
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section say_hello">
+            <div class='mid'>
+                <div class="contact-us">
+                    <div class="contact-us_block">
+                        <div class='contact-us_block_wrapper'>
+                            <img src="images/contact-us_number.png" class="contact-us_img">
+                            <p class='contact-us_text'>68361111</p>
+                        </div>
+                    </div>
+                    <div class="contact-us_block">
+                        <div class='contact-us_block_wrapper'>
+                            <img src="images/contact-us_skype.png" class="contact-us_img">
+                            <p class='contact-us_text'>Shipperz3</p>
+                        </div>
+                    </div>
+                    <div class="contact-us_block">
+                        <div class='contact-us_block_wrapper'>
+                            <img src="images/contact-us_mail.png" class="contact-us_img">
+                            <p class='contact-us_text'>Support@Shipperz.net</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <h2 class="feedback-title">Say Hello!</h2>
+                    <form>
+                        <input type="text" class='feedback_box-name' placeholder="Your Name" required>
+                        <input type="email" class='feedback_box-mail' placeholder="Your Email" required>
+                        <textarea class='feedback_box-messege' placeholder="Your Messege"></textarea>
+                        <button class="feedback_btn"><a href="#" class='feedback_btn_link'>Contact Us<img src="images/contact-us_arrow.png" class='feedback_btn_arrow'/></a></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class='mid'>
+                <div class='footer-top'>
+                    <div class='footer-top_text'>
+                        <img src="images/footer-logo.png" class='footer-top_logo'/>
+                        <p class="footer-top_company">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                    </div>
+                    <div class='footer-top_menu'>
+                        <div class="footer-top_menu_box">
+                            <ul class='footer-menu_list'>
+                                <li class='footer-menu_item'>Home</li>
+                                <li class='footer-menu_item'>Download</li>
+                                <li class='footer-menu_item'>Features</li>
+                                <li class='footer-menu_item'>How To Use </li>
+                            </ul> 
+                        </div>
+                        <div class="footer-top_menu_box">
+                            <ul class='footer-menu_list'>
+                                <li class='footer-menu_item'>About    </li>
+                                <li class='footer-menu_item'>About Shipperz</li>
+                                <li class='footer-menu_item'>Our team</li>
+                                <li class='footer-menu_item'>Investor</li>
+                            </ul> 
+                        </div>
+                        <div class="footer-top_menu_box">
+                            <ul class='footer-menu_list'>
+                                <li class='footer-menu_item'>Sitemap</li>
+                                <li class='footer-menu_item'>Company</li>
+                                <li class='footer-menu_item'>Contact us</li>
+                                <li class='footer-menu_item'>Media </li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+                <div class='footer-bottom'>
+                    <div class='footer-bottom-social'>
+                        <div class="f-social">
+                            <a href="#" class="f-social-link">
+                                <img class="f-social-link_img" src="images/footer-fb.png">
+                            </a>
+                        </div>
+                        <div class="f-social">
+                            <a href="#" class="f-social-link">
+                                <img class="f-social-link_img" src="images/footer-tw.png">
+                            </a>
+                        </div>
+                        <div class="f-social">
+                            <a href="#" class="f-social-link">
+                                <img class="f-social-link_img" src="images/footer-g+.png">
+                            </a>
+                        </div>
+                        <div class="f-social">
+                            <a href="#" class="f-social-link">
+                                <img class="f-social-link_img" src="">
+                            </a>
+                        </div><div class="f-social">
+                            <a href="#" class="f-social-link">
+                                <img class="f-social-link_img" src="">
+                            </a>
+                        </div><div class="f-social">
+                            <a href="#" class="f-social-link">
+                                <img class="f-social-link_img" src="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class='footer-bottom-copyright'>
+                        <p class="footer-bottom-copyright_text">©2014 Shipperz All Rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            $(function () {
+            $('.mobile-menu_back').on('click', function(){
+                $('.mobile-menu_list').toggleClass('none');
+                });
+            });
+            $(function () {                             
+                $(".header_mobile_menu").click(function() {
+                    $(".mobile-menu_list").toggleClass('block');
+                });
+            });
+             
+        </script>
+	</body>
+</html>
