@@ -1503,7 +1503,8 @@ input.feedback_box-name:focus, input.feedback_box-mail:focus, textarea.feedback_
 @media screen and (min-width: 320px) and (max-width: 599px) {  
     body {
         overflow-x: hidden;
-	background-image: url('../images/map.png');
+	background: url('../images/map.png') 0 0;
+	background-size: 56%;
     }
     .review .mid {
         width: 320px;
