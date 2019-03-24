@@ -1,0 +1,373 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif; 
+background-color: #000000;}
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.top {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.boxTop {
+    width: 25%;
+    height: auto; 
+}
+#first {
+    background-color: #111111;
+    position: relative;
+    border: 1px solid #f16c37;
+    border-radius: 20px;
+}
+.firstTop {
+    display: flex;
+    flex-direction: row; 
+}
+.firstTop .leftImg {
+    width: 40%;
+    height: auto;
+}
+.leftImg img {
+    width: 100%;
+}
+
+.firstTop .right {
+    width: 60%;
+    right: auto;
+}
+.right img {
+    width: 25%;
+}
+.hours h1 {
+    margin: 20px 5px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 50%; /*потрібно вирахувати середину*/
+}
+/*Second box*/
+.boxData, .boxOpt {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.box {
+    width: 50%;
+    height: 150px;
+    margin-left: 2px;
+    border: 1px solid #f16c37;
+     border-radius: 20px;
+    position: relative;
+    font-weight: 900;
+    font-size: 15px;
+}
+.boxImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    padding: 5px
+}
+.boxImg img {
+    width: 100%;
+    height: auto;
+}
+.boxText {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 15px;
+}
+.boxVal {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 5px 0;
+}
+.box img {
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+}
+.temperature, .PH1, .PH2, .REDOX, .con, .O2 {
+    margin-bottom: 30px;
+}
+.temperature:after {
+    content: 'TEMPERATURE';
+    position: absolute;
+    bottom: -20px;
+    left: 20%
+}
+.PH1:after {
+    content: 'PH1';
+    position: absolute;
+    bottom: -20px;
+    left: 40%
+}
+.PH2:after {
+    content: 'PH2';
+    position: absolute;
+    bottom: -20px;
+    left: 40%
+}
+.REDOX:after {
+    content: 'REDOX';
+    position: absolute;
+    bottom: -20px;
+    left: 40%
+}
+.con:after {
+    content: 'CONDUCTIVITY';
+    position: absolute;
+    bottom: -20px;
+    left: 15%
+}
+.O2:after {
+    content: 'O2';
+    position: absolute;
+    bottom: -20px;
+    left: 40%
+}
+.FL1:after {
+    content: 'float 1';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 32%
+}
+.FL2:after {
+    content: 'float 2';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 32%
+}
+.FL3:after {
+    content: 'float 3';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 32%
+}
+.OPT1:after {
+    content: 'optical 1';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 25%
+}
+.OPT2:after {
+    content: 'optical 2';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 25%
+}
+.OPT3:after {
+    content: 'optical 3';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 25%
+}
+
+/*bottom*/
+.bottom {
+    color: grey;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.bottom .boxOpt img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    margin: 5px;
+} 
+.PAR1, .PAR2, .v1, .v2, .v3, .v4, .v5, .v6 {
+    margin-bottom: 30px;
+}
+.PAR1:after {
+    content: 'PAR 1';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 20%
+}
+.PAR2:after {
+    content: 'PAR 2';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 20%
+}
+.feedstop:after {
+     content: 'feedstop';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 20%
+}
+.sw1:after {
+     content: 'virtual switch 1';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.sw2:after {
+     content: 'virtual switch 2';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.sw3:after {
+     content: 'virtual switch 3';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.sw4:after {
+     content: 'virtual switch 4';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.sw5:after {
+     content: 'virtual switch 5';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.sw6:after {
+     content: 'virtual switch 6';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.sw7:after {
+     content: 'virtual switch 7';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.v1:after {
+     content: '0-10v1';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.v2:after {
+     content: '0-10v2';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.v3:after {
+     content: '0-10v3';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.v4:after {
+     content: '0-10v4';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.v5:after {
+     content: '0-10v5';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+.v6:after {
+     content: '0-10v6';
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -20px;
+    left: 10%
+}
+@media screen and (max-width: 1024px) {
+    .box {
+    font-size: 10px;
+}
+}
+@media screen and (max-width: 764px) {
+    .top, .bottom {
+    flex-direction: column;
+}
+    .boxTop {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .boxOpt .box, #first {
+        margin-bottom: 30px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .boxTop {
+        width: 95%;
+    }
+  }
+@media screen and (min-width: 1200px) {
+    .bottom .boxOpt img {
+    max-height: 90%;
+}
+}
