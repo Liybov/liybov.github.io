@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/style_post.css"/>
+        <title>Post trucks</title>
+    </head>
+    <body>
+        <div id="modal">
+            <div class="modalBox">
+                <a href="#" id="modalClose"><img src="img/close.png" alt=''></a>
+                <label>Call Control<br><input type='text' placeholder=''></label><br>
+                <label>Read<br><input type='text' placeholder=''></label><br>
+                <label>Sound / Auto Call<br><input type='text' placeholder=''></label><br>
+                <label>Truck<br><input type='text' placeholder=''></label><br>
+                <label>Origin<br><input type='text' placeholder=''></label><br>
+                <label>Destination<br><input type='text' placeholder=''></label><br>
+                <label>Pickup<br><input type='text' placeholder=''></label><br>
+                <label>DH-O<br><input type='text' placeholder=''></label><br>
+                <label>DH-D<br><input type='text' placeholder=''></label><br>
+                <label>F/P<br><input type='text' placeholder=''></label><br>
+                <label>Length<br><input type='text' placeholder=''></label><br>
+                <label>Weight<br><input type='text' placeholder=''></label><br>
+                <label>Trip<br><input type='text' placeholder=''></label><br>
+                <label>Alarm<br><input type='text' placeholder=''></label><br>
+                <label>Actions<br><input type='text' placeholder=''></label><br>
+                <a href="#" id="modalOK">ADD</a>
+            </div>
+        </div>
+        <div id='firstTable'>
+            <h1>Post Trucks</h1>
+            <div class="btn">
+                <button id="play"><img src="img/play.png" alt=''></button>
+                <button id="add"><img src="img/add.png" alt=''> New</button>
+                <button id="delete"><img src="img/delete.png" alt=''> Delete All</button>
+                <button id="repost"><img src="img/update.png" alt=''> Repost All</button>
+            </div>
+           <table id="table1">
+                <thead>
+                    <tr id='head1'>
+                        <th>Call Control</th>
+                        <th>Read</th>
+                        <th>Sound / Auto Call</th>
+                        <th>Truck</th>
+                        <th>Origin</th>
+                        <th>Destination</th>
+                        <th>Pickup</th>
+                        <th>DH-O</th>
+                        <th>DH-D</th>
+                        <th>F/P</th>
+                        <th>Length</th>
+                        <th>Weight</th>
+                        <th>Trip</th>
+                        <th>Alarm</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+               <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div id='secondTable'>
+            <h1>Search results: Total: 1</h1>
+            <div class="btn">
+                <button id="undo"><img src="img/update.png" alt=''>Undo</button>
+                <button id="clear"><img src="img/delete.png" alt=''> Clear</button>
+            </div>
+           <table id="table2">
+                <thead>
+                    <tr id='head2'>
+                        <th>Rate</th>
+                        <th>F</th>
+                        <th>Source</th>
+                        <th>Age</th>
+                        <th>Avail</th>
+                        <th>Truck</th>
+                        <th>Truck-O</th>
+                        <th>DH-O</th>
+                        <th>F/P</th>
+                        <th>Origin</th>
+                        <th>Trip</th>
+                        <th>Destination</th>
+                        <th>DH-D</th>
+                        <th>Truck-D</th>
+                        <th>Length</th>
+                        <th>Weight</th>
+                        <th>Company</th>
+                        <th>Phone</th>
+                    </tr>
+                    </thead>
+               <tbody>
+                   <tr>
+                       <td>3150</td>
+                       <td>Yes</td>
+                       <td>DAT</td>
+                       <td>00:01</td>
+                       <td>11/24</td>
+                       <td>V</td>
+                       <td>Belwood, IL</td>
+                       <td>371</td>
+                       <td>F</td>
+                       <td>Erie, PA</td>
+                       <td>422</td>
+                       <td>Sealy, TX</td>
+                       <td></td>
+                       <td></td>
+                       <td>53 ft</td>
+                       <td>43 klbs</td>
+                       <td>Coyote Logistics</td>
+                       <td>(773) 799 2118</td>
+                   </tr>
+                   <tr>
+                       <td>3150</td>
+                       <td>Yes</td>
+                       <td>DAT</td>
+                       <td>00:01</td>
+                       <td>11/24</td>
+                       <td>V</td>
+                       <td>Belwood, IL</td>
+                       <td>371</td>
+                       <td>F</td>
+                       <td>Erie, PA</td>
+                       <td>422</td>
+                       <td>Sealy, TX</td>
+                       <td></td>
+                       <td></td>
+                       <td>53 ft</td>
+                       <td>43 klbs</td>
+                       <td>Coyote Logistics</td>
+                       <td>(773) 799 2118</td>
+                   </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
