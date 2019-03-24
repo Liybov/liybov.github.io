@@ -116,3 +116,10 @@ button img {
     right: 20px;
     width: 35px;
     height: 35px;}
+#modalOK {
+    background: #fff;
+    color: #000;
+    border: 1px solid grey;
+    padding: 8px;
+    text-align: center;
+    display: block;}
