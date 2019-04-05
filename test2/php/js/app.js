@@ -1,0 +1,1 @@
+$(document).foundation(),$(".menu-icon").click(function(){$(this).toggleClass("is-active")}),$(".js-off-canvas-exit").click(function(){$(".menu-icon").removeClass("is-active")});
