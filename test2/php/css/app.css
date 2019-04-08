@@ -85,7 +85,7 @@ hr {
     font-weight: bold;
     font-size: 18px;
 }
-.row .video {
+.row .video, .row .video-title {
     margin-right: 0;
     margin-left: 0;
 }
