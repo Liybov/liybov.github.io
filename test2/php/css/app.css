@@ -63,6 +63,17 @@ hr {
     width: 60px;
     height: 60px;
 }
-.map {
+.map-img {
     width: 100%;
+}
+.map {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;   
 }
