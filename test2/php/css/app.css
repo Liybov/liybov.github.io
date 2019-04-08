@@ -52,3 +52,14 @@ hr {
 .video video {
     width: 100%;
 }
+.whyUs row columns img {
+    width: 310px;
+    height: 210px;
+}
+.course row columns img, .study columns img { width: 220px;
+    height: 150px;
+} 
+.why columns img { 
+    width: 60px;
+    height: 60px;
+}
