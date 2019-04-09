@@ -81,7 +81,7 @@ hr {
     font-weight: bold;
     font-size: 18px;
 }
-.row .video, .row .video-title, .about .row .row {
+.row .video, .row .video-title, .about .row .row, .advices .row {
     margin-right: 0;
     margin-left: 0;
 }
