@@ -102,3 +102,6 @@ h2 {
     position: absolute;
     width: 80%;
 }
+.whyUs h2 {
+    margin: 0 auto;
+}
