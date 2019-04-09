@@ -77,10 +77,6 @@ hr {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;   
 }
-.map .column {
-    padding-right: 0;
-    padding-left: 0;
-}
 .price {
     font-weight: bold;
     font-size: 18px;
