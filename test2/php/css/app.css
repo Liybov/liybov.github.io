@@ -1,4 +1,4 @@
-.callout, .about, .group {
+.callout, .about, .group, .bg-grey {
     background-color:  rgba(78, 55, 55, 0.85);
     border: none;
 }
