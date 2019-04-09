@@ -93,3 +93,12 @@ h2 {
 .callout {
     color: #ffffff;
 }
+.why .column {
+    position: relative;
+    height: 220px;
+}
+.why .column a {
+    bottom: 0;
+    position: absolute;
+    width: 80%;
+}
