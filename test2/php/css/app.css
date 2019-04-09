@@ -107,7 +107,7 @@ h2 {
     margin: 0 auto;
     margin-bottom: 20px;
 }
-    .row {
+    .row, .advices {
         text-align: center;
     }
     .row ul{
