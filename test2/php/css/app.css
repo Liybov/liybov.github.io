@@ -89,3 +89,6 @@ hr {
     margin-right: 0;
     margin-left: 0;
 }
+h2 {
+    border-bottom: 3px solid #bb2921;
+}
