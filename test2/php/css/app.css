@@ -103,7 +103,7 @@ h2 {
     width: 80%;
 }
 @media screen and (max-width: 640px){
-.whyUs h2 {
+.row h2 {
     margin: 0 auto;
     margin-bottom: 20px;
 }
