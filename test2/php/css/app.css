@@ -16,7 +16,7 @@ hr {
     width: 100%;
     border-bottom: 3px solid #bb2921;
 }
-.about {
+.about, .page-title {
     color: #ffffff;
 }
 .course {
