@@ -107,4 +107,7 @@ h2 {
     margin: 0 auto;
     margin-bottom: 20px;
 }
+    .row {
+        text-align: center;
+    }
 }
