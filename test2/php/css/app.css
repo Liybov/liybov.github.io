@@ -1,5 +1,5 @@
 .callout, .about, .group {
-    background-color:  rgba(78, 55, 55, 0.71);
+    background-color:  rgba(78, 55, 55, 0.85);
     border: none;
 }
 .bg {
@@ -93,4 +93,7 @@ h2 {
     border-bottom: 3px solid #bb2921;
     padding-bottom: 10px;
     margin-bottom: 1rem;
+}
+.callout {
+    color: #ffffff;
 }
