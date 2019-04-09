@@ -110,4 +110,7 @@ h2 {
     .row {
         text-align: center;
     }
+    .about .row {
+        width: 100%;
+    }
 }
