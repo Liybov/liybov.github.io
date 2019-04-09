@@ -113,7 +113,7 @@ h2 {
     .row ul{
         text-align: left;
     }
-    .about .row {
+    .about .row, .video-title {
         width: 100%;
     }
 }
