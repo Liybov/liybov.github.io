@@ -110,6 +110,9 @@ h2 {
     .row {
         text-align: center;
     }
+    .row ul{
+        text-align: left;
+    }
     .about .row {
         width: 100%;
     }
