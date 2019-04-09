@@ -103,7 +103,7 @@ h2 {
     width: 80%;
 }
 @media screen and (max-width: 640px){
-.row h2 {
+.row h2, .advices .row h3 {
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -113,7 +113,7 @@ h2 {
     .row ul{
         text-align: left;
     }
-    .about .row, .video-title {
+    .about .row, .video-title, .advices .row {
         width: 100%;
     }
 }
