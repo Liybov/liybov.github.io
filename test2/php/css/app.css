@@ -1,4 +1,4 @@
-.callout, .about, .group {
+.callout, .about, .group, .callout .primary {
     background-color:  rgba(78, 55, 55, 0.85);
     border: none;
 }
@@ -45,9 +45,6 @@ hr {
 .button.hollow {
         border: 1px solid #ffffff;
     color: #ffffff;
-}
-.callout.primary {
-    background-image: url(../img/books.jpg);
 }
 .callout.primary h1 {
     color: #ffffff;
