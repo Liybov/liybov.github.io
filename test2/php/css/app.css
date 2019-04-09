@@ -105,5 +105,6 @@ h2 {
 @media screen and (max-width: 640px){
 .whyUs h2 {
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 }
