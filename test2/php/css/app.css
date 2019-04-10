@@ -102,6 +102,9 @@ h2 {
     position: absolute;
     width: 80%;
 }
+.office p{
+    padding-top: 75px;
+}
 @media screen and (max-width: 640px){
 .row h2, .advices .row h3 {
     margin: 0 auto;
@@ -116,4 +119,7 @@ h2 {
     .about .row, .video-title, .advices .row {
         width: 100%;
     }
+    .office p{
+    padding-top: 20px;
+}
 }
