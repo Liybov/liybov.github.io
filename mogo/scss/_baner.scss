@@ -1,0 +1,104 @@
+.baner {
+    background: url(../img/baner.jpg) 50% 0% no-repeat;
+    color: $textlight;
+    .baner-bg {    
+        @include bg-line;
+        .container {
+		.btn-menu {
+			display: none;
+			    color: $textlight;
+				position: absolute;
+				right: 0;
+				top: 10px;
+			}
+            padding-top: 30px;
+            .logo {
+                font-family: $font;
+                font-size: 30px;
+                font-weight: 900;
+            }
+            .menu-mogo {
+                justify-content: space-between;
+                width: 100%;
+                li {
+                    a {
+                        color: $textlight;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        font-family: $font; 
+                        padding-top: 10px;
+                        &:focus {
+                            color: $yellow;
+                            border-bottom: 4px solid $yellow;
+                        }
+                        &:hover {
+                            color: $yellow;
+                            border-bottom: 4px solid $yellow;
+                        }
+                    }
+                }
+            }
+            .subtitle {
+                font-family: $fontMinor;
+                font-size: 75px;
+                padding-top: 60px;
+                padding-bottom: 35px;
+            }
+            .title-mogo {
+                color: $textlight;
+                font-size: 150px;
+                font-family: $font;
+                font-weight: 900;
+                padding-top: 35px;
+                padding-bottom: 35px
+            }
+            .btn-more {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                border-radius: 0;
+                border: 3px solid $textlight;
+                padding: 10px 30px;
+                color: $textlight;
+                font-weight: 900;
+            }
+            .slider-progress {
+                font-weight: 900;
+                padding-bottom: 30px;
+                font-size: 24px;
+                progress {
+                    background-color: $textlight;
+                    border: 0;
+                    width: 100%;
+                    height: 5px;
+                    border-radius: 9px;
+                    margin-bottom: 25px;
+                    &::-webkit-progress-bar {
+                        background-color: $textlight;
+                        border: 0;
+                        width: 100%;
+                        height: 5px;
+                        border-radius: 9px;
+                    }
+                    &::-webkit-progress-value {
+                       background-color: $pink;
+                        border: 0;
+                        width: 100%;
+                        height: 5px;
+                        border-radius: 9px;
+                    }
+                    &::-moz-progress-bar {
+                        background-color: $textlight;
+                        border: 0;
+                        width: 100%;
+                        height: 5px;
+                        border-radius: 9px;
+                    }
+                }
+                .slider-title {
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

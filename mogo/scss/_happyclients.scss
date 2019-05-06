@@ -1,0 +1,75 @@
+#happyclients {
+	background: url(../img/clients-bg.jpg) 50% 0% no-repeat;
+	.happyclients-bg {
+	    height: 100%;
+		background-color: rgba(217, 217, 217, 0.9);
+		padding-bottom: 70px;
+	}
+    .row {
+        h3 {
+            @include subtitle;
+            padding-top: 110px;
+        }
+        h2 {
+            @include title;
+                padding-top: 25px;
+        }
+        hr {
+            @include redLine;
+            margin-top: 40px;
+        }
+        .text {
+            @include text;
+            padding-top: 0;
+        }
+		
+    }
+	.clients {
+		.clients-box {
+			padding-top: 70px;
+		}
+		.clients-foto {
+			float: left;
+			width: 25%;
+			img {
+				width: 109px;
+				height: 109px;
+				border-radius: 50%;
+			}
+		}
+		.clients-desc {
+			float: left;
+			width: 75%;
+			p {
+				margin-bottom: 0;
+			}
+			.clients-name {
+				font-family: $font;
+				font-size: 14px;
+				color: $dark;
+				text-transform: uppercase;
+			}
+			.clients-position {
+				font-family: $fontText;
+				font-style: italic;
+				font-size: 15px;
+				color: $dark;
+				padding-top: 15px;
+			}
+			.clients-text {
+				font-family: $fontText;
+				font-size: 15px;
+				color: $grey;
+				width: 100%;
+				float: left;
+			}
+			hr {
+				text-align: left;
+				float: left;
+				margin-top: 18px;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	
+}

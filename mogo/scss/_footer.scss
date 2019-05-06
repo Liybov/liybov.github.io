@@ -1,0 +1,134 @@
+footer {
+	background-color: $quotebg;
+	padding-top: 75px;
+	.col-5 {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.footer-top {
+		padding-bottom: 68px;
+		.title {
+			font-family: $font;
+			font-weight: 900;
+			color: $greyLogo;
+			font-size: 46px;
+			padding-bottom: 40px;
+		}
+		.text {
+			@include text;
+			padding-bottom: 55px;
+		}
+		.followers {
+			font-family: $font;
+			color: $dark;
+			font-size: 18px;
+			border-bottom: 1px solid $colorline;
+			padding-bottom: 20px;
+			.k {
+				font-weight: 900;
+			}
+		}
+		.follow {
+			margin: 20px 0;
+			a {
+				padding: 7px;
+			}
+		}
+		form {
+			padding-top: 18px;
+			padding-bottom: 18px;
+		}
+		input {
+			outline: none;
+		}
+		.email {
+			border: 1px solid $colorline;
+			border-right: none;
+			padding: 14px;
+			font-family: $fontText;
+			font-weight: 400;
+			font-style: italic;
+			font-size: 15px;
+			color: $greyLogo;
+		}
+		.form-btn {
+			padding: 14px 35px;
+			background-color: $blue;
+			border: 1px solid $blue;
+			margin-left: -2px;
+			font-family: $font;
+			font-weight: 900;
+			font-size: 14px;
+			color: $textlight;
+			text-transform: uppercase;
+		}
+		.footer-blogs {
+			.footer-blogs-title {
+				font-family: $font;
+				font-size: 14px;
+				color: $dark;
+				text-transform: uppercase;
+				padding-bottom: 40px;
+			}
+			.blogs-box {
+				width: 100%;
+				&:after {
+					display: block;
+					content: "";
+					clear: both;
+				}
+				&:before {
+					display: block;
+					content: "";
+				}
+				img {
+					width: 30%;
+					float: left;
+					padding-bottom: 30px;
+				}
+				p {
+					width: 70%;
+					float: left;
+					padding-left: 20px;
+				}
+				.blogs-title {
+					font-family: $font;
+					font-size: 12px;
+					color: $dark;
+					text-transform: uppercase;
+				}
+				.blogs-data {
+					font-family: $fontText;
+					font-size: 13px;
+					color: $grey;
+				}
+			}
+		}
+		.instagram {
+			.instagram-title {
+				font-family: $font;
+				font-size: 14px;
+				color: $dark;
+				text-transform: uppercase;
+				padding-bottom: 40px;
+			}
+			.inst-more {
+				padding-top: 20px;
+				font-family: $fontText;
+				font-size: 13px;
+				color: $dark;
+				font-style: italic;
+			}
+		}
+	}
+    .footer-bot{
+		border-top: 1px solid $colorline;
+		padding: 25px 0;
+		font-family: $font;
+		font-size: 14px;
+		color: $dark;
+        .pink {
+			color: $pink;
+		}
+    }
+}

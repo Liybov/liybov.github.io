@@ -1,0 +1,22 @@
+#counter {
+    background: $blue;
+    color: $textlight;
+    .box-c {
+        border-left: 1px solid $textlight;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        &:first-child {
+            border-left: none;
+        }
+        .counter-number {
+            font-size: 75px;
+            font-family: $font;
+            font-weight: 900;
+        }
+        h5 {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-family: $font;
+        }
+    }
+}

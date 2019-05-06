@@ -1,0 +1,85 @@
+#blog {
+    padding-bottom: 115px;
+    .row {
+        h3 {
+            @include subtitle;
+            padding-top: 110px;
+        }
+        h2 {
+            @include title;
+                padding-top: 25px;
+        }
+        hr {
+            @include redLine;
+            margin-top: 40px;
+        }
+        .text {
+            @include text;
+            padding-top: 0;
+        }
+		.blog-box {
+			position: relative;
+			img {
+				width: 380px;
+				height: 240px;
+				padding-bottom: 20px;
+				max-width: 100%;
+			}
+			h4 {
+				font-family: $font;
+				color: $dark;
+				font-size: 14px;
+				text-transform: uppercase;
+				padding-bottom: 20px;
+			}
+			.blog-desc {
+				color: $grey;
+				font-family: $font;
+				font-size: 15px;
+				padding-bottom: 20px;
+				border-bottom: 1px solid $colorline;
+			}
+			.blog-view {
+				float: left;
+				padding-right:20px;
+				color: $grey;
+				font-family: $fontText;
+				font-size: 15px;
+				font-style: italic;
+				img {width:20px;height: auto;margin-right:7px;padding-bottom:0;}
+			}
+			.blog-comment {
+				float: left;
+				padding-right:20px;
+				color: $grey;
+				font-family: $fontText;
+				font-size: 15px;
+				font-style: italic;
+				img {width:18px;height: auto;margin-right:7px;padding-bottom:0;}
+			}
+			.date {
+				width: 60px;
+				height: 70px;
+				background: $blue;
+				position: absolute;
+				top: 140px;
+				left: -10px;
+				text-align: center;
+				color: $textlight;
+				.number {
+					font-family: $font;
+					font-weight: bold;
+					font-size: 30px;
+					text-transform: uppercase;
+					margin-bottom: 0;
+				}
+				.month {
+					font-family: $fontText;
+					font-style: italic;
+					font-size: 15px;
+					margin-bottom: 0;
+				}
+			}
+		}
+    }
+}

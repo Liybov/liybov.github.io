@@ -1,0 +1,65 @@
+#testimonial {
+	background-color: $textlight;
+	padding: 70px;
+    .slider-box{
+		position:relative;
+		width:100%;
+		overflow:hidden;
+		padding-bottom: 20px;
+		.slider{
+			position:relative;
+			width:10000px;
+			.slides{
+				float:left;
+				width: 1000px;
+				overflow: hidden;
+				margin: 0 91px;
+				.slides-img {
+					img {
+						width: 212px;
+						height: 212px;
+						border-radius: 50%;
+					}
+				}
+				p {
+					font-size: 24px;
+					font-family: $fontText;
+					color: $grey;
+					line-height: 36px;
+					font-style: italic;
+					padding-top: 31px;
+				}
+				hr {
+					@include redLine;
+					margin-top: 16px;
+					float: left;
+				}
+				.slides-name {
+					@include subtitle;
+					margin-top: 35px;
+					padding-left: 10px;
+				}
+			}
+		}
+		.prev {
+			position:absolute;
+			top:65px;
+			display:block;
+			width:53px;
+			height:53px;
+			cursor:pointer;
+			left:10px;
+			background:url(../img/arrow-left.png) no-repeat 0 0;
+		}
+		.next{
+			position:absolute;
+			top:65px;
+			display:block;
+			width:53px;
+			height:53px;
+			cursor:pointer;
+			right:10px;
+			background:url(../img/arrow-right.png) no-repeat 0 0;
+		}
+	}
+}

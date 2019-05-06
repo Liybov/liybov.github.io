@@ -1,0 +1,55 @@
+#services {
+    padding-bottom: 70px;
+	.services-row {
+		padding-top: 50px;
+		padding-bottom: 50px;
+			.services-box {
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+	}
+	.services-line {
+			border-bottom: 1px solid $colorline;
+	}
+    .row {
+        h3 {
+            @include subtitle;
+            padding-top: 110px;
+        }
+        h2 {
+            @include title;
+                padding-top: 25px;
+        }
+        hr {
+            @include redLine;
+            margin-top: 40px;
+        }
+        .text {
+            @include text;
+            padding-top: 0;
+        }
+		.services-icon {
+			float: left;
+			width: 15%;
+			img {
+				max-width: 32px;
+			}
+		}
+		.services-text {
+			float: left;
+			width: 85%;
+			.services-title {
+				text-transform: uppercase;
+				font-family: $font;
+				font-size: 14px;
+				color: $dark;
+				padding-bottom: 10px;
+			}
+			p {
+				font-family: $fontText;
+				font-size: 15px;
+				color: $grey;
+			}
+		}
+    }
+}

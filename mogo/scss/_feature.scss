@@ -1,0 +1,51 @@
+#feature {
+	height: 894px;
+	background: url(../img/feature-bg.jpg) 50% 0% no-repeat;
+	.feature-bg {
+	    height: 100%;
+		background-color: rgba(217, 217, 217, 0.7);
+	}
+	.row {
+        h3 {
+            @include subtitle;
+            padding-top: 110px;
+        }
+        h2 {
+            @include title;
+                padding-top: 25px;
+        }
+        hr {
+            @include redLine;
+            margin-top: 40px;
+        }
+        .text {
+            @include text;
+            padding-top: 0;
+        }
+	}
+	.feature-img {
+			padding-top: 45px;
+			position: relative;
+			.feature-img-b {
+				position: absolute;
+				left: 25%;
+			}
+			.feature-img-s {
+				position: absolute;
+				left: 57%;
+				bottom: -636px;
+			}
+		}
+}
+@media screen and (max-width: 414px) { 
+	#feature {
+		.feature-img {
+			.feature-img-s {
+				left: 28%;
+			}
+			.feature-img-b {
+				width: 100%;
+			}
+		}
+	}
+}
